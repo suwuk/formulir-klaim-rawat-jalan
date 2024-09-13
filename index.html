@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulir Klaim Rawat Jalan</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="all-formulir">
+      <div class="formulir">
+        <h4>PT. REPUBLIKA MEDIA MANDIRI</h4>
+        <h3>FORMULIR KLAIM RAWAT JALAN KESEHATAN</h3>
+        <div class="data_formulir">
+          <div class="informasi">
+            <p>Nama Karyawan : Bapak Karyawan</p>
+            <p>No. ID Karyawan : 12345678</p>
+          </div>
+          <div class="jenis_klaim">
+            <p>Jenis Klaim :</p>
+            <div class="checkbox1">
+              <form action="" class="checkbox-group">
+                <p>Rawat Jalan</p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Tanggal</th>
+              <th>Nama</th>
+              <th>Status Pasien</th>
+              <th>Diagnosa/Keterangan</th>
+              <th>Jumlah</th>
+            </tr>
+          </thead>
+          <tbody id="data-list1"></tbody>
+          <tfoot>
+            <tr>
+              <td class="total" colspan="5">TOTAL</td>
+              <td id="total-jumlah1"></td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div class="ttd">
+          <div class="ttd-karyawan">
+            <p>Nama Karyawan.12/09/2024</p>
+            <br />
+            <br />
+            <p>(.......................)</p>
+          </div>
+
+          <div class="ttd-atasan">
+            <p>Mengetahui Atasan</p>
+            <br />
+            <br />
+            <p>(.......................)</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="formulir">
+        <h4>PT. REPUBLIKA MEDIA MANDIRI (arsip)</h4>
+        <h3>FORMULIR KLAIM RAWAT JALAN KESEHATAN</h3>
+        <div class="data_formulir">
+          <div class="informasi">
+            <p>Nama Karyawan : Bapak Karyawan</p>
+            <p>No. ID Karyawan : 12345678</p>
+          </div>
+          <div class="jenis_klaim">
+            <p>Jenis Klaim :</p>
+            <div class="checkbox1">
+              <form action="" class="checkbox-group">
+                <p>Rawat Jalan</p>
+              </form>
+            </div>
+          </div>
+        </div>
+        <table id="table">
+          <thead>
+            <tr>
+              <th>No</th>
+              <th>Tanggal</th>
+              <th>Nama</th>
+              <th>Status Pasien</th>
+              <th>Diagnosa/Keterangan</th>
+              <th>Jumlah</th>
+            </tr>
+          </thead>
+          <tbody id="data-list2"></tbody>
+          <tfoot>
+            <tr>
+              <td class="total" colspan="5">TOTAL</td>
+              <td id="total-jumlah2"></td>
+            </tr>
+          </tfoot>
+        </table>
+
+        <div class="ttd">
+          <div class="ttd-karyawan">
+            <p>Nama Karyawan.12/09/2024</p>
+            <br />
+            <br />
+            <p>(.......................)</p>
+          </div>
+
+          <div class="ttd-atasan">
+            <p>Mengetahui Atasan</p>
+            <br />
+            <br />
+            <p>(.......................)</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button id="cetak-pdf">Cetak ke PDF</button>
+    <button id="cetak-print">Print Kertas</button>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script type="text/javascript" src="./data.js"></script>
+  </body>
+</html>
